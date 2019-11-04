@@ -1,0 +1,29 @@
+{
+  "name": "origin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adonaipedro/originChallenge.git"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.15.4",
+    "express-validator": "^6.1.1",
+    "helmet": "^3.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js",
+    "debug": "nodemon ./bin/server.js"
+  },
+  "keywords": [],
+  "author": "Adonai Seixas",
+  "license": ""
+}
