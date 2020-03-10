@@ -36,6 +36,7 @@ exports.proccessUserData = async (req, res, next) => {
   riskRules.eighthRule(req.body, response);
   riskRules.ninthRule(req.body, response);
   riskRules.tenthRule(req.body, response);
+  
 
   req.body = response;
   return next();
